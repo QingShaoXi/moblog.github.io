@@ -1,0 +1,99 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: Zhao Wen Xiao
+subtitle:  Stay Hungry, Stay Foolish
+description: 程序员、程序猿、程序媛、JAVA  #网站描述 SEO
+keywords:
+author: 赵文消
+language: zh-CN # 语言设置
+timezone: Asia/Shanghai
+
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url:  https://qingshaoxi.github.io/moblog.github.io #般填写自己的站点链接
+root: /moblog.github.io/ #站点子目录
+permalink: :title/ #生成链接的格式
+permalink_defaults: #生成链接中各部分的默认值
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+  - README.md
+  - CNAME
+ 
+
+# Writing
+new_post_name: :title.md # 新的博文的文件名 文件名.md
+default_layout: post #默认布局
+titlecase: false # Transform title into titlecase
+external_link: true # Open external links in new tab
+filename_case: 0 #把文件名称转换为 (1) 小写或 (2) 大写
+render_drafts: false #是否显示草稿
+post_asset_folder: false #是否启动资源文件夹
+relative_link: false #把链接改为与根目录的相对位址
+future: true
+highlight: #代码块的设置，Hexo自带的代码高亮插件
+  enable: true
+  line_number: true
+  auto_detect: false
+  tab_replace:
+  
+# Home page setting
+# path: Root path for your blogs index page. (default = '')
+# per_page: Posts displayed per page. (0 = disable pagination)
+# order_by: Posts order. (Order by date descending by default)
+index_generator:
+  path: ''
+  per_page: 10
+  order_by: -date
+  
+# Category & Tag
+default_category: uncategorized #如果撰写文章时没有设置分类，默认的分类选择
+category_map: #用于映射分类的别名
+tag_map: #用法和分类别名是一样的
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 10
+pagination_dir: page
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+theme: next
+
+# Deployment
+## Docs: https://hexo.io/docs/deployment.html
+deploy:
+  type: git
+  repository: 
+    github: git@github.com:QingShaoXi/moblog.github.io.git
+  branch: master
+
+feed: # RSS订阅插件
+  type: atom
+  path: atom.xml
+  limit: 0
+plugins: hexo-generate-feed
+
+search: # 本地搜索插件
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
