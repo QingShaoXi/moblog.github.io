@@ -86,14 +86,22 @@ deploy:
     github: git@github.com:QingShaoXi/moblog.github.io.git
   branch: master
 
-feed: # RSS订阅插件
+# RSS订阅
+feed:
   type: atom
   path: atom.xml
-  limit: 0
-plugins: hexo-generate-feed
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
 
 search: # 本地搜索插件
   path: search.xml
   field: post
   format: html
   limit: 10000
+
+# Extensions
+## Plugins: http://hexo.io/plugins/
+plugins: hexo-generate-feed
