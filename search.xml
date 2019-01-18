@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2Fmoblog.github.io%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment #hh]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[我的个人简历]]></title>
+    <url>%2Fmoblog.github.io%2F%E6%88%91%E7%9A%84%E4%B8%AA%E4%BA%BA%E7%AE%80%E5%8E%86%2F</url>
+    <content type="text"><![CDATA[如果想设置某一句的颜色或大小，只需用html语法写出来就行了 我可以设置这一句的颜色哈哈 我还可以设置这一句的大小嘻嘻 我甚至可以设置这一句的颜色和大小呵呵 15、设置文字居中设置方法： 这一行需要居中]]></content>
+  </entry>
+</search>
