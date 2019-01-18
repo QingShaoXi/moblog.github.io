@@ -79,7 +79,7 @@
     fastclick: false,
     lazyload: false,
     tabs: true,
-    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    motion: {"enable":true,"async":true,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
     algolia: {
       applicationID: '',
       apiKey: '',
@@ -399,6 +399,13 @@
           
 
   
+    <div class="comments" id="comments">
+      <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the comments powered by Disqus.</noscript>
+      </div>
+    </div>
+
+  
 
 
 
@@ -549,9 +556,9 @@
       <div class="footer-inner">
         <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
   <span class="with-love" id="animate">
-    <i class="fa fa-"></i>
+    <i class="fa fa-user"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">http://qny.qunjuba.com</span>
+  <span class="author" itemprop="copyrightHolder">赵文消</span>
 
   
 
@@ -614,6 +621,12 @@
 
 
 
+  
+    
+    
+  
+  <script color="0,0,255" opacity="0.5" zindex="-1" count="99" src="/moblog.github.io/lib/canvas-nest/canvas-nest.min.js"></script>
+
 
 
 
@@ -668,6 +681,29 @@
 
 
   
+  
+  <script id="dsq-count-scr" src="https://zwx.disqus.com/count.js" async></script>
+
+
+<script>
+  var disqus_config = function() {
+    this.page.url = "https://qingshaoxi.github.io/moblog.github.io/about/index.html";
+    this.page.identifier = "about/index.html";
+    this.page.title = '关于我';
+    };
+  function loadComments() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://zwx.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', '' + +new Date());
+    (d.head || d.body).appendChild(s);
+  }
+  
+    loadComments();
+  
+</script>
+
+
+
 
 
   
