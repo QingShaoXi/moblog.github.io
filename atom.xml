@@ -6,7 +6,7 @@
   <link href="/moblog.github.io/atom.xml" rel="self"/>
   
   <link href="https://qingshaoxi.github.io/moblog.github.io/"/>
-  <updated>2019-01-19T08:20:35.861Z</updated>
+  <updated>2019-01-19T08:29:15.616Z</updated>
   <id>https://qingshaoxi.github.io/moblog.github.io/</id>
   
   <author>
@@ -21,17 +21,11 @@
     <link href="https://qingshaoxi.github.io/moblog.github.io/web3-js/"/>
     <id>https://qingshaoxi.github.io/moblog.github.io/web3-js/</id>
     <published>2019-01-19T08:19:24.000Z</published>
-    <updated>2019-01-19T08:20:35.861Z</updated>
+    <updated>2019-01-19T08:29:15.616Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;p&gt;简介&lt;br&gt;web3.js 是一个通过RPC 调用 和本地以太坊节点进行通信的js库。web3.js可以与任何暴露了RPC接口的以太坊节点连接。&lt;br&gt;web3中提供了eth对象 - web3.eth来与以太坊区块链进行交互。&lt;br&gt;在github上获得代码&lt;br&gt;安装
-        
-      
+      &lt;p&gt;简介&lt;br&gt;web3.js 是一个通过RPC 调用 和本地以太坊节点进行通信的js库。web3.js可以与任何暴露了RPC接口的以太坊节点连接。&lt;br&gt;web3中提供了eth对象 - web3.eth来与以太坊区块链进行交互。&lt;br&gt;
     
     </summary>
     
