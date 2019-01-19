@@ -6,7 +6,7 @@
   <link href="/moblog.github.io/atom.xml" rel="self"/>
   
   <link href="https://qingshaoxi.github.io/moblog.github.io/"/>
-  <updated>2019-01-19T07:09:10.917Z</updated>
+  <updated>2019-01-19T08:20:35.861Z</updated>
   <id>https://qingshaoxi.github.io/moblog.github.io/</id>
   
   <author>
@@ -17,13 +17,66 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>以太坊 Web3.js 开发基础</title>
+    <link href="https://qingshaoxi.github.io/moblog.github.io/web3-js/"/>
+    <id>https://qingshaoxi.github.io/moblog.github.io/web3-js/</id>
+    <published>2019-01-19T08:19:24.000Z</published>
+    <updated>2019-01-19T08:20:35.861Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;简介&lt;br&gt;web3.js 是一个通过RPC 调用 和本地以太坊节点进行通信的js库。web3.js可以与任何暴露了RPC接口的以太坊节点连接。&lt;br&gt;web3中提供了eth对象 - web3.eth来与以太坊区块链进行交互。&lt;br&gt;在github上获得代码&lt;br&gt;安装
+        
+      
+    
+    </summary>
+    
+      <category term="区块链" scheme="https://qingshaoxi.github.io/moblog.github.io/categories/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
+    
+    
+      <category term="web3js" scheme="https://qingshaoxi.github.io/moblog.github.io/tags/web3js/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo内嵌标签</title>
+    <link href="https://qingshaoxi.github.io/moblog.github.io/tag-plugins/"/>
+    <id>https://qingshaoxi.github.io/moblog.github.io/tag-plugins/</id>
+    <published>2019-01-19T08:12:47.000Z</published>
+    <updated>2019-01-19T08:17:22.358Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="hexo" scheme="https://qingshaoxi.github.io/moblog.github.io/categories/hexo/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>我的公主</title>
     <link href="https://qingshaoxi.github.io/moblog.github.io/my-princess/"/>
     <id>https://qingshaoxi.github.io/moblog.github.io/my-princess/</id>
     <published>2019-01-19T06:43:24.000Z</published>
-    <updated>2019-01-19T07:09:10.917Z</updated>
+    <updated>2019-01-19T08:18:01.578Z</updated>
     
     <summary type="html">
+    
+      &lt;!-- HTML方式: 直接在 Markdown 文件中编写 HTML 来调用 --&gt;
+&lt;!-- 其中 class=&quot;blockquote-center&quot; 是必须的 --&gt;
+&lt;blockquote class=&quot;blockquote-center&quot;&gt;blah blah blah&lt;/blockquote&gt;
+
+&lt;!-- 标签 方式，要求版本在0.4.5或以上 --&gt;
+&lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;p&gt;blah blah blah&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;!-- 标签别名 --&gt;
+&lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;p&gt;blah blah blah &lt;/p&gt;
+&lt;/blockquote&gt;
     
     </summary>
     
