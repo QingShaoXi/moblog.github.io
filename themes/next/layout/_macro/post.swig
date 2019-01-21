@@ -334,7 +334,7 @@
 
     {#####################}
     {### END POST BODY ###}
-    {#####################}
+    {#####################}   
 
     {% if theme.wechat_subscriber.enabled and not is_index %}
       <div>
