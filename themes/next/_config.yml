@@ -329,7 +329,7 @@ codeblock:
 
 # Wechat Subscriber #微信公众号
 wechat_subscriber:
-  enabled: true
+  enabled: false
   qcode: /uploads/wechat-qcode.jpg
   description: 欢迎订阅我的微信公众号
 

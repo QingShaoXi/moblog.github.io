@@ -3,13 +3,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2"/>
 <script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
 <link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet">
+<!-- 文章加密 -->
 <script>
-    (function () {
-        if ('{{ page.password }}') {
-            if (prompt('请输入文章密码') !== '{{ page.password }}') {
+    (function(){
+        if('{{ page.password }}'){
+            if (prompt('请输入文章密码') !== '{{ page.password }}'){
                 alert('密码错误！');
-                if (history.length === 1) {
-                    location.replace("https://qingshaoxi.github.io/moblog.github.io/"); // 这里替换成你的首页
+		if (history.length === 1) {
+		    window.opener = null;
+		    window.open('', '_self');
+		    window.close();
                 } else {
                     history.back();
                 }

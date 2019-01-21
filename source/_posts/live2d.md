@@ -3,7 +3,7 @@ title: live2d宠物安装
 date: 2019-01-19 17:04:13
 tags:
 categories:
- -hexo
+ - hexo
 ---
 Install seperated models
 use npm install {packagename} The package name is the folder name in packages/ We have:

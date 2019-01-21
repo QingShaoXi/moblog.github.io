@@ -9,6 +9,7 @@ description: 程序员、程序猿、程序媛、JAVA  #网站描述 SEO
 keywords:
 author: 赵文消
 language: zh-CN # 语言设置
+#language: zh-Hans # 语言设置
 timezone: Asia/Shanghai
 
 # URL
