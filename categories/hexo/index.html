@@ -21,13 +21,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
 <link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet">
+<!-- 文章加密 -->
 <script>
-    (function () {
-        if ('') {
-            if (prompt('请输入文章密码') !== '') {
+    (function(){
+        if(''){
+            if (prompt('请输入文章密码') !== ''){
                 alert('密码错误！');
-                if (history.length === 1) {
-                    location.replace("https://qingshaoxi.github.io/moblog.github.io/"); // 这里替换成你的首页
+		if (history.length === 1) {
+		    window.opener = null;
+		    window.open('', '_self');
+		    window.close();
                 } else {
                     history.back();
                 }
@@ -473,6 +476,32 @@
 
       <h2 class="post-title">
         
+          <a class="post-title-link" href="/moblog.github.io/live2d/" itemprop="url">
+            
+              <span itemprop="name">live2d宠物安装</span>
+            
+          </a>
+        
+      </h2>
+
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated" datetime="2019-01-19T17:04:13+08:00" content="2019-01-19">
+          01-19
+        </time>
+      </div>
+
+    </header>
+  </article>
+
+
+      
+        
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <h2 class="post-title">
+        
           <a class="post-title-link" href="/moblog.github.io/tag-plugins/" itemprop="url">
             
               <span itemprop="name">hexo内嵌标签</span>
@@ -569,7 +598,7 @@
                 
                   <a href="/moblog.github.io/archives/">
                 
-                    <span class="site-state-item-count">6</span>
+                    <span class="site-state-item-count">7</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -1309,5 +1338,5 @@
 
   
 
-<script src="/moblog.github.io/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/moblog.github.io/live2dw/assets/wanko.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":true}});</script></body>
+<script src="/moblog.github.io/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"https://cdn.jsdelivr.net/npm/live2d-widget-model-wanko@1.0.5/assets/wanko.model.json"},"log":false});</script></body>
 </html>
