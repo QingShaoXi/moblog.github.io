@@ -1,9 +1,10 @@
 ---
-title: 我的公主
-copyright: true
+title: next 内嵌标签demo
 date: 2019-01-19 14:43:24
 tags:
- - 默默
+ - next
+categories:
+ - hexo
 ---
 <!-- HTML方式: 直接在 Markdown 文件中编写 HTML 来调用 -->
 <!-- 其中 class="blockquote-center" 是必须的 -->

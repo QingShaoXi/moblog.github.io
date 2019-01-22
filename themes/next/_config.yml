@@ -200,6 +200,7 @@ social_icons:
   简书: heartbeat
   csdn: crosshairs
   掘金: spinner
+  Gitee : gitee
 # Follow me on GitHub banner in right-top corner.
 # Usage: `permalink || title`
 # Value before `||` delimeter is the target permalink.
