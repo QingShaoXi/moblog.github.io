@@ -37,6 +37,10 @@
             }
         }
     })();
+    //--创建页面监听，等待微信端页面加载完毕 触发音频播放
+    document.addEventListener('WeixinJSBridgeReady', function() {
+        document.getElementById('video').play()
+    });
 </script>
 <style>
     .pace .pace-progress {
@@ -515,7 +519,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-01-23 16:20:39" itemprop="dateModified" datetime="2019-01-23T16:20:39+08:00">2019-01-23</time>
+                <time title="修改时间：2019-01-23 17:08:27" itemprop="dateModified" datetime="2019-01-23T17:08:27+08:00">2019-01-23</time>
               
             
           </span>
