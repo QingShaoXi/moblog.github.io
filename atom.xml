@@ -6,7 +6,7 @@
   <link href="/moblog.github.io/atom.xml" rel="self"/>
   
   <link href="https://qingshaoxi.github.io/moblog.github.io/"/>
-  <updated>2019-01-22T09:07:44.231Z</updated>
+  <updated>2019-01-23T05:05:43.381Z</updated>
   <id>https://qingshaoxi.github.io/moblog.github.io/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>微信小程序接口调用凭证</title>
+    <link href="https://qingshaoxi.github.io/moblog.github.io/access-token/"/>
+    <id>https://qingshaoxi.github.io/moblog.github.io/access-token/</id>
+    <published>2019-01-23T04:56:54.000Z</published>
+    <updated>2019-01-23T05:05:43.381Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;请求地址&quot;&gt;&lt;a href=&quot;#请求地址&quot; class=&quot;headerlink&quot; title=&quot;请求地址&quot;&gt;&lt;/a&gt;请求地址&lt;/h3&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;GET https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&amp;amp;appid=APPID&amp;amp;secret=APPSECRET&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+      <category term="微信小程序" scheme="https://qingshaoxi.github.io/moblog.github.io/categories/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    
+    
+      <category term="access_token" scheme="https://qingshaoxi.github.io/moblog.github.io/tags/access-token/"/>
+    
+  </entry>
   
   <entry>
     <title>我的小公主-默默</title>
