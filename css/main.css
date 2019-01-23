@@ -2108,7 +2108,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #b35e61;
+  background: #ff2aff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3885,6 +3885,21 @@ section .post-body .fancybox img {
   overflow-wrap: break-word;
   word-wrap: break-word;
   word-break: break-all;
+}
+.vid-wrap {
+  width: 100%;
+  background: #000;
+  position: relative;
+  padding-bottom: 56.25%;
+/*需要用padding来维持16:9比例,也就是9除以16*/
+  height: 0;
+}
+.vid-wrap video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 @-moz-keyframes play {
   0% {
