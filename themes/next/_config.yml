@@ -140,11 +140,13 @@ menu:
   tags: /tags/ || tags
   categories: /categories/ || th
   archives: /archives/ || archive
+  音乐: /music/ || music
+  相册: /photos/  || camera
   #about: /about/ || user
   #resources: /resources || download
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
-  commonweal: /404/ || heartbeat
+  #commonweal: /404/ || heartbeat
 
 # Enable/Disable menu icons / item badges.
 menu_settings:
@@ -684,9 +686,9 @@ rating:
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
-  enable: true
-  app_id: 0f2rauIY5vNuK5zcx9f8cTGJ-gzGzoHsz
-  app_key: bp3eoBkSzBbbrQW0uyHs2Kg4
+  enable: false
+  app_id: #0f2rauIY5vNuK5zcx9f8cTGJ-gzGzoHsz
+  app_key: #bp3eoBkSzBbbrQW0uyHs2Kg4
   # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security
   # If you don't care about security in leancloud counter and just want to use it directly
   # (without hexo-leancloud-counter-security plugin), set `security` to `false`.
@@ -841,7 +843,7 @@ motion:
 # Choose only any one variant, do not need to install both.
 # To install 2.x: https://github.com/theme-next/theme-next-fancybox
 # To install 3.x: https://github.com/theme-next/theme-next-fancybox3
-fancybox: false
+fancybox: true
 
 # Added switch option for separated repo in 6.0.0.
 # Dependencies: https://github.com/theme-next/theme-next-fastclick
