@@ -3,11 +3,14 @@ title: 享受一下音乐，继续前行
 date: 2019-01-24 15:21:19
 type: music
 ---
+<style>
+#aplayer{ margin:0 auto; width:320px; height:100px; border:1px solid #F00}
+</style>
 <br>
 <br>
 <!--音乐-->
 <link rel="stylesheet" href="../assets/css/APlayer.min.css">
-<div id="aplayer" style="z-index:9999;"></div>
+<center><div id="aplayer" style="z-index:9999;"></div><center>
 <script src="../assets/js/APlayer.min.js"></script>
 <script>
 const ap = new APlayer({
