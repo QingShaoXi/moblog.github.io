@@ -6,7 +6,7 @@
   <link href="/moblog.github.io/atom.xml" rel="self"/>
   
   <link href="https://qingshaoxi.github.io/moblog.github.io/"/>
-  <updated>2019-01-23T05:05:43.381Z</updated>
+  <updated>2019-01-25T07:13:38.143Z</updated>
   <id>https://qingshaoxi.github.io/moblog.github.io/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>HoorayOS_mini</title>
+    <link href="https://qingshaoxi.github.io/moblog.github.io/HoorayOS-mini/"/>
+    <id>https://qingshaoxi.github.io/moblog.github.io/HoorayOS-mini/</id>
+    <published>2019-01-25T07:07:44.000Z</published>
+    <updated>2019-01-25T07:13:38.143Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;===== 桌面应用数据 =====&lt;br&gt;桌面通过读取data.js里的json数据显示桌面应用，其data.js可替换成后端输出，打开hros.app.js，找到17行，把data.js的路径替换成后端输出桌面json数据的地址即可。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="前端UI" scheme="https://qingshaoxi.github.io/moblog.github.io/categories/%E5%89%8D%E7%AB%AFUI/"/>
+    
+    
+      <category term="仿window桌面webUI" scheme="https://qingshaoxi.github.io/moblog.github.io/tags/%E4%BB%BFwindow%E6%A1%8C%E9%9D%A2webUI/"/>
+    
+  </entry>
   
   <entry>
     <title>微信小程序接口调用凭证</title>
