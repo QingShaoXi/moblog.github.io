@@ -9,63 +9,48 @@ type: music
 <br>
 <br>
 <!--音乐-->
-<link rel="stylesheet" href="../assets/css/APlayer.min.css">
-<center><div id="aplayer" style="z-index:9999;"></div><center>
+<link rel="stylesheet" href="https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.css">
+<div id="aplayer" style="z-index:9999;"></div>
 <script src="../assets/js/APlayer.min.js"></script>
 <script>
 const ap = new APlayer({
     container: document.getElementById('aplayer'),
     fixed: true,
     autoplay: true,
-    theme: '#FADFA3',
+    theme: '#b7daff',
     loop: 'all',
     preload: 'auto',
     mutex: true,
     volume: 0.7,
     lrcType: 3,
     listFolded: true,
-    listMaxHeight: '90px',
+    listMaxHeight: '150px',
     audio: [
         {
         name: '光年之外',
         artist: '邓紫棋',
-        url: 'http://211.97.73.143/amobile.music.tc.qq.com/C400002E3MtF0IAMMY.m4a?guid=8175895576&vkey=9C67BB27E1ADFE32D19C0FC6AA22EAD7F2C84EAFFFD58CF1AF182E387E8B34E57139671A1466C1F7D298277B0892482606CF1B9BAA2148D7&uin=0&fromtag=66',
+        url: 'http://211.97.73.147/amobile.music.tc.qq.com/C400002E3MtF0IAMMY.m4a?guid=4068577132&vkey=743DB8746F33CCC775C16AF43C46FE5F6DDFFADE0782EEAF9DB9021D4F87BCD7F181A6067ADDF7E3F468B510DCB508B5B6FC5ECA22AD04E0&uin=0&fromtag=66',
         cover: '//y.gtimg.cn/music/photo_new/T002R300x300M000001mTkmb4GJlh4.jpg?max_age=2592000',
-        lrc: '',
-        theme: '#ebd0c2',
-        },
-		{
-        name: '泡沫',
-        artist: '邓紫棋',
-        url: 'http://211.97.73.153/amobile.music.tc.qq.com/C400000ryYx71hFmdF.m4a?guid=8175895576&vkey=ADC07B11770B33AC0FDDDEF8EFA154E4E5EB27AA131CEEEB0E69C4BC96CEABBBFCA8EFE13A791A9CBA87D333EB0AA219103E5B994631BEFF&uin=0&fromtag=66',
-        cover: '//y.gtimg.cn/music/photo_new/T002R300x300M000002YFufr4bXZyI.jpg?max_age=2592000',
-        lrc:'https://raw.githubusercontent.com/lawlite19/Blog-Back-Up/master/music/Passenger%20-%20Golden%20Leaves.lrc',
-        theme: '#ebd0c2',
-        },
-		{
-        name: '告白气球',
-        artist: '周杰伦',
-        url: 'http://211.97.73.153/amobile.music.tc.qq.com/C400003OUlho2HcRHC.m4a?guid=8175895576&vkey=1A4755C95FEB227BD3BA80B40596740818D91A05B40E0910B50B21E33275794B9D51B9A0795FF86C9835F41B9BA80318770514F5FF7A2583&uin=0&fromtag=66',
-        cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000003RMaRI1iFoYd.jpg?max_age=2592000',
-        lrc: 'https://raw.githubusercontent.com/lawlite19/Blog-Back-Up/master/music/Ed%20Sheeran%20-%20Photograph.lrc',
+        lrc: 'https://raw.githubusercontent.com/QingShaoXi/Blog_Album/master/music/gnzw.lrc',
         theme: '#ebd0c2',
         },
         {
-        name: '一路向北',
-        artist: '周杰伦',
-        url: 'http://211.97.73.153/amobile.music.tc.qq.com/C400002FacGn0dkEuR.m4a?guid=8175895576&vkey=DEF28ABBD3CFB0C3277F90DDBAD9CD71A8F3499C807CFC5AE5DC2B589EF33A9FAA13DDDA6EF0FEE1780C1BC02665C2AAFC3D739191BD752A&uin=0&fromtag=66',
-        cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000002MAeob3zLXwZ.jpg?max_age=2592000',
-        lrc: 'https://raw.githubusercontent.com/lawlite19/Blog-Back-Up/master/music/Adam%20Lambert%20-%20Ghost%20Town.lrc',
+        name: '没有什么不同',
+        artist: '曲婉婷',
+        url: 'http://211.97.73.154/amobile.music.tc.qq.com/C400003gab3g2kUMwd.m4a?guid=3311042164&vkey=4CD46D32E139B4DA360E7B5FE03A4CA5946CADAE43D371B27F79F5B1B8017D6D7D431420CBBFB5B1C4270236C7A674A2923EBE0F67634A6C&uin=0&fromtag=66',
+        cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000001ZEgp33CTpK9.jpg?max_age=2592000',
+        lrc: 'https://raw.githubusercontent.com/QingShaoXi/Blog_Album/master/music/gnzw.lrc',
         theme: '#ebd0c2',
         },
-		{
-        name: '搁浅',
-        artist: '周杰伦',
-        url: 'http://157.255.154.150/amobile.music.tc.qq.com/C400001Bbywq2gicae.m4a?guid=8175895576&vkey=0E26832F27B453019B162DEF5C2D13E438723D903253D54C57B32AB20C3824531FDA7C99DD75DB54FA55AF5D0C1EF9F00CE4AAC5051E2DF3&uin=0&fromtag=66',
-        cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000003DFRzD192KKD.jpg?max_age=2592000',
-        lrc: '',
+        {
+        name: '一曲相思',
+        artist: '半阳',
+        url: 'http://211.97.73.155/amobile.music.tc.qq.com/C400002u0fTY2HoJJp.m4a?guid=2988268813&vkey=5979D49DE306C471E36B17725B2BBB2E5ABA20C85EEEB4D68DAB43C8CB944F9B66AFEEA59D98280535F1C63D813333B4AD59AF30DD4EA445&uin=0&fromtag=66',
+        cover: 'https://y.gtimg.cn/music/photo_new/T001R300x300M0000013RsPD3Xs0FG.jpg?max_age=2592000',
+        lrc: 'https://raw.githubusercontent.com/QingShaoXi/Blog_Album/master/music/gnzw.lrc',
         theme: '#ebd0c2',
-        },
+        }
+        
     ]
 });
 </script>
