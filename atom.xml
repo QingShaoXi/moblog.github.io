@@ -6,7 +6,7 @@
   <link href="/moblog.github.io/atom.xml" rel="self"/>
   
   <link href="https://qingshaoxi.github.io/moblog.github.io/"/>
-  <updated>2019-01-28T09:30:06.435Z</updated>
+  <updated>2019-01-29T09:09:39.395Z</updated>
   <id>https://qingshaoxi.github.io/moblog.github.io/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>zgf_say</title>
+    <title>mall</title>
+    <link href="https://qingshaoxi.github.io/moblog.github.io/openCoding/openCoding/"/>
+    <id>https://qingshaoxi.github.io/moblog.github.io/openCoding/openCoding/</id>
+    <published>2019-01-29T08:22:05.000Z</published>
+    <updated>2019-01-29T09:09:39.395Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot; title=&quot;说明&quot;&gt;&lt;/a&gt;说明&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;基于SpringBoot+MyBatis的电商系统，包括前台商城系统及后台管理系统。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="电商系统" scheme="https://qingshaoxi.github.io/moblog.github.io/categories/%E7%94%B5%E5%95%86%E7%B3%BB%E7%BB%9F/"/>
+    
+    
+      <category term="后台" scheme="https://qingshaoxi.github.io/moblog.github.io/tags/%E5%90%8E%E5%8F%B0/"/>
+    
+      <category term="vue" scheme="https://qingshaoxi.github.io/moblog.github.io/tags/vue/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>曾国藩语录</title>
     <link href="https://qingshaoxi.github.io/moblog.github.io/zgf-say/zgf-say/"/>
     <id>https://qingshaoxi.github.io/moblog.github.io/zgf-say/zgf-say/</id>
     <published>2019-01-28T09:25:51.000Z</published>
-    <updated>2019-01-28T09:30:06.435Z</updated>
+    <updated>2019-01-29T09:16:32.255Z</updated>
     
     <summary type="html">
     
