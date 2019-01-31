@@ -1,6 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Web 框架技术选型的原则]]></title>
+    <url>%2Fmoblog.github.io%2Fweb%2Fweb%2F</url>
+    <content type="text"><![CDATA[引言 首先对于一家创业公司而言，这更像是一个商业抉择而不仅仅是技术选择，时间人力物力等开销都必须要考虑周全。一旦公司规模上来了资金不成问题了，可选择的空间就更大了甚至可以进行迁移或重新架构。原文作者 Ramigbtech 总结了以下 10 点以供参考。 1. 语法拥有优雅语法的语言无疑可以让编程工作变得惬意，但有时候我们容易被表象所蒙蔽，如果凭直觉你认定，”this is text”.split (’ ‘) .reverse.join (‘ ‘)比” “.join (“This is text”.split (’ ‘)[::-1]) 的写法要好或差，那么这仅仅是外貌协会，实际上我们更应该着眼于它本身是否具有局限性或语法是否累赘，用更少的代码完成等价的工作我们自己或团队都会对当初的选择心存感激。 2. 功能和体型我们需要为路由编写复杂的正则查询吗？路由中含有内建的 DSL 吗？我们需要使用 ORM 吗？或许我们还想拥有更多其它功能。建议选取一款较轻巧框架作为开始，日后我们可以为它添砖加瓦。 3. 文档资源具备丰富文档资源的框架使用起来的确是得心应手事半功倍。nt例如我在学习 CodeIgniter 时，根本不必像无头苍蝇那样四处寻找答案，其自带的教程和配套范例都做得非常认真仔细。相对而言，我在学习 ExpressJS 的时候就比较费力了。 4. 代码自动生成框架中的代码自动生成功能通常能为我们节省不少时间，我们仅需要做好控制器/类等的处理而把其它重复的编码工作交给框架，虽然有时候不能自由地进行自定义，但对于想快速开发出一个能运行的原型是有积极意义的。 5. 模块化Django 在模块/Apps 的处理上令人赞叹，不仅仅让代码复用变得简便，同时有助我们培养良好的模块化思维。当我们不再需要X模块时，我们只需把它移除然后做好代码重构工作就可以了。 6. 基础架构不论是使用 LAMP 还是 MEAN 堆栈，或是 Rails/Unicorn 等，最关键的还是我们对这个架构有没有足够的了解，有没有相关组件的维护能力。假如应用的前端和后端都与 Javascript 相关，采用 MEAN 堆栈架构是个不错的选择。 7. 社区和更新速度框架相关的社区是否活跃？有没有技术大咖坐镇？官方会否常常上 StackOverflow 帮忙解答技术疑难？为这些问题找到完美的答案是有一定难度，但绝大多数时候数字是最真实的。日期或参与度/帖子热度都是不错的衡量指标。此外，补丁的更新速度也十分关键，对安全性和漏洞的重视与否可谓是牵一发而动全身。 8. 重大变更就在最近不少程序员听到 Angular 2.0 的重大变更后感到震惊和抓狂，尽管要到 2015 年晚些时候才会全部完成，但一想到辛辛苦苦做好的代码都会变成过去时，又怎能安之若素呢？另一个例子是 Yii 框架，新版本 2.0 的推出意味着对前个版本的完全重写。 9. 部署和依赖容易部署吗？能方便进行扩展吗？需要花费多少时间来学习掌握部署工具？虽然有 Docker 这样的工具可以帮我们解答上述问题，但是抽取时间来思考这方面的问题还是有必要的。 10. 人力我们能快捷地找到相应的开发人才吗？将要使用的框架在我们所处的区域是否流行？纵然培训工作是管理的一部分，但对于初创公司而言时间和资金时刻都得精打细算。 最后：如果是中型的网站，我会选择 Django。如果我暂时不能确定网站的规模和将投入多少开发精力，我会选择 Rails。如果我不想前后端工作分得太开，我会选择 MEAN 堆栈。]]></content>
+      <categories>
+        <category>架构</category>
+      </categories>
+      <tags>
+        <tag>web</tag>
+        <tag>框架</tag>
+        <tag>技术</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[学习Spring Boot看这两个开源项目就够了！非得值得收藏的资源]]></title>
+    <url>%2Fmoblog.github.io%2Fjpa%2Fspringboot%2F</url>
+    <content type="text"><![CDATA[引言 Spring Boot我就不做介绍了，大家都懂得它是一个多么值得我们程序员兴奋的框架 为什么要介绍这两个开源项目呢？ 提供了丰富的学习实践案例 整合了非常多优质的学习资源 链接地址 121.https://github.com/ityouknow/spring-boot-examples(纯洁的微笑)2.https://github.com/JeffLi1993/springboot-learning-example]]></content>
+      <categories>
+        <category>JAVA</category>
+      </categories>
+      <tags>
+        <tag>Springboot</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Java开发中MyBatis、Hibernate、Spring Data JPA应该如何选择？]]></title>
+    <url>%2Fmoblog.github.io%2Fjpa%2Fjpa%2F</url>
+    <content type="text"><![CDATA[引言 大家知道目前Java开发中MyBatis、Hibernate、Spring Data JPA是3个使用比较普遍的持久化框架，但是我们在实际项目中应该如何选择呢？我们对此做一下分析。 一.简单介绍 Hibernate Hibernate是将POJO通过Xml映射文件（或注解）提供的规则映射到数据库表上，是一种全表映射的模型，可以通过POJO直接操作数据库。我们不需要写SQL，只要使用HQL语言就可以了。 MyBatis Mybatis是半自动的框架。之所以说它是半自动的，是因为它需要手工匹配提供POJO、SQL和映射关系，而Hibernate只需要提供POJO和映射关系即可。 Spring Data JPA Spring Data JPA是在JPA规范的基础下提供了Repository层的实现，是对ORM框架的进一步抽象封装，它不直接代替ORM框架，默认底层使用的ORM框架是Hibernate，但可以灵活的在各种ORM框架之间切换，同时也简化了我们对ORM框架的使用。 综上，使用Hibernate的可以使用Spring Data JPA来简化开发了。我们只需要在MyBatis和Spring Data JPA之间做选择，而这个选择还是得看MyBatis和Hibernate的对比。 二.优缺点Java开发中MyBatis、Hibernate、Spring Data JPA应该如何选择？ 1.MyBatis1.1.优点它是一个半自动化的持久层框架，支持动态SQL，灵活可控。更容易掌握，入门简单，即学即用，学习成本低。 1.2.缺点需要维护SQL和结果映射，增加了工作量。移植性差，所有的SQL语句都依赖所用的数据库，对不同数据库类型的支持不好。 2.Hibernate2.1.优点不需要维护SQL和结果映射，开发工作量少。移植性好，所有的 HQL 语句与具体使用的数据库无关。 2.2.缺点性能相对较差。学习门槛不低，精通门槛更高，学习成本高。 三.适用场景Java开发中MyBatis、Hibernate、Spring Data JPA应该如何选择？ 1.MyBatis数据量大，高并发。表关联比较复杂。要求对于数据库可控性好， 可深度调优。 2.Hibernate场景不太复杂。需求变化不多。性能要求不高。 四.总结目前来看传统企业使用Spring Data JPA的比较多，而互联网行业更倾向于使用MyBatis，如阿里及其旗下的很多子公司都在用MyBatis。在实际使用时可以结合各个框架的优缺点、项目情况、研发人员的技术情况等综合评估和选择。]]></content>
+      <categories>
+        <category>JAVA</category>
+      </categories>
+      <tags>
+        <tag>编程</tag>
+        <tag>SQL</tag>
+        <tag>Spring Data JPA</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[thinkjs-cmswing]]></title>
     <url>%2Fmoblog.github.io%2Fthinkjs%2Fthinkjs%2F</url>
     <content type="text"><![CDATA[特别提示项目依赖本项目已升级到ThinkJS 3.0 ,项目运行的 Node &gt; 7.6.0（推荐使用 8.x.x 版本）; 项目源代码地址 github地址：https://github.com/arterli/CmsWing 码云地址：http://git.oschina.net/arterli/CmsWing 简介: 模块化：全新的架构和模块化的开发机制，便于灵活扩展和二次开发。 模型/栏目/分类信息体系：通过栏目和模型绑定，以及不同的模型类型，不同栏目可以实现差异化的功能，轻松实现诸如资讯、下载、讨论和图片等功能。通过分类信息和栏目绑定，可以自动建立索引表，轻松实现复杂的信息检索。 用户行为：支持自定义用户行为，可以对单个用户或者群体用户的行为进行记录及分享，为您的运营决策提供有效参考数据。 云服务支持：支持云存储、云安全、云过滤和云统计等服务，更多贴心的服务让您的网站更安心。 安全稳健：提供稳健的安全策略，包括备份恢复、容错、防止恶意攻击登录，网页防篡改等多项安全管理功能，保证系统安全，可靠、稳定的运行。 快速入门本项目依赖,nodejs &gt;7.6.5 推荐使用 8.x.x 版本 mysql &gt; 5.X git clone源代码,或者下载指定版本; 1git clone https://gitee.com/arterli/CmsWing.git 发行版本选择,建议最新版本 https://gitee.com/arterli/CmsWing/releases 进入命令行模式 cd 到CMSWing目录下 安装项目依赖 1npm install 创建项目需要的数据库,登录MySQL 创建数据库, 数据库名字可以随意, 1create database cmswing; 查看数据库,是否创建成功,看到有 cmswing的数据库,就创建成功了 1show databases; 登录数据库,使用数据库, 1use cmswing; 返回 Database changed 说明成功,下一步 导入SQL文件,生成数据库表,SQL文件在CMSWing根目录, 目录改成,自己的 cmswing.sql 文件目录 1source D:\ProjectList\NodeJS\CmsWing\cmswing.sql 导入完成后,配置数据库 配置项目使用的数据库账号密码端口 在CmsWing\src\config目录下的model.js文件中配置你的数据库 改数据库用户名,密码,数据库,端口一般默认 1234567891011121314mysql: &#123; handle: mysql, // Adapter handle user: &apos;root&apos;, // 用户名 password: &apos;root&apos;, // 密码 database: &apos;cmswing&apos;, // 数据库 host: &apos;127.0.0.1&apos;, // host port: 3306, // 端口 connectionLimit: 1, // 连接池的连接个数，默认为 1 prefix: &apos;cmswing_&apos;, // 数据表前缀，如果一个数据库里有多个项目，那项目之间的数据表可以通过前缀来区分 cache: &#123; // 额外的缓存配置 type: &apos;file&apos;, handle: fileCache, cachePath: path.join(think.ROOT_PATH, &apos;runtime/cache&apos;) // absoulte path is necessarily required &#125; 配置完,运行项目 1npm start 查看有没有报错,没有直接访问,http://127.0.0.1:8360 前端登录 账号密码 12user: adminpassword: 123456 愉快的玩耍吧,里面有默认的数据 管理后台登录账号密码一样 http://127.0.0.1:8360/admin QQ 交流群: 49757468有问题可以到QQ群 进行交流. install dependencies1npm install start server1npm start deploy with pm2use pm2 to deploy app on production envrioment. 1可以在项目根目录下执行 pm2 start pm2.json 来启动项目 后台账号密码112账号:admin密码:123456 演示网站#####PC端直接输入下面网址: CmsWing.com www.cmswing.com CMSWing 官网.CmsWing.net www.cmswing.net CMSWing 演示网站.LVOOwww.lvoo.net 分类信息应用案例展示。 #####手机端,用手机浏览器或者微信客户端扫下面二维码: 内置模型 - 同时支持PC端与手机端【微信公众平台】新闻系统模型下载系统模型视频系统模型图库系统模型商城系统模型问答社区模型##后台部分截图 ##手机端(微信)前台模版截图]]></content>
@@ -38,7 +75,7 @@
   <entry>
     <title><![CDATA[express安装]]></title>
     <url>%2Fmoblog.github.io%2Fexpress%2Fexpress%2F</url>
-    <content type="text"><![CDATA[前言 在你的windows上已经安装了node.js的基础上再安装express 第一部分:安装express 第一步:执行 npm install -g express-generator note:必须安装这个,不然创建express项目的时候会提示express命令没有找到 第二步:执行 npm install -g express 第三步:执行 express -V 或者 express –version note:’V’是大写的,如果express安装成功会显示版本号 第二部分:创建一个express项目 第一步:执行 express youProjectName note:youProjectName是你的项目的名称,按照自己的要求选择合适的项目名称 第二步 :进入你的项目:cd youProjectName 第三步:在你的项目的目录下执行 npm install 第四步:启动你的项目,执行 npm start 第三部分:在浏览器中访问你的项目 打开你的浏览器,在地址栏中输入:http://127.0.0.1:3000 然后你会看到:express的欢迎信息 最后:开启你的express之旅吧,祝君工作愉快!]]></content>
+    <content type="text"><![CDATA[前言前言 在你的windows上已经安装了node.js的基础上再安装express 第一部分:安装express 第一步:执行 npm install -g express-generator note:必须安装这个,不然创建express项目的时候会提示express命令没有找到 第二步:执行 npm install -g express 第三步:执行 express -V 或者 express –version note:’V’是大写的,如果express安装成功会显示版本号 第二部分:创建一个express项目 第一步:执行 express youProjectName note:youProjectName是你的项目的名称,按照自己的要求选择合适的项目名称 第二步 :进入你的项目:cd youProjectName 第三步:在你的项目的目录下执行 npm install 第四步:启动你的项目,执行 npm start 第三部分:在浏览器中访问你的项目 打开你的浏览器,在地址栏中输入:http://127.0.0.1:3000 然后你会看到:express的欢迎信息 最后:开启你的express之旅吧,祝君工作愉快!]]></content>
       <categories>
         <category>nodejs</category>
       </categories>

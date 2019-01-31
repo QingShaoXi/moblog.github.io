@@ -6,7 +6,7 @@
   <link href="/moblog.github.io/atom.xml" rel="self"/>
   
   <link href="https://qingshaoxi.github.io/moblog.github.io/"/>
-  <updated>2019-01-31T03:47:28.518Z</updated>
+  <updated>2019-01-31T06:23:56.491Z</updated>
   <id>https://qingshaoxi.github.io/moblog.github.io/</id>
   
   <author>
@@ -15,6 +15,77 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Web 框架技术选型的原则</title>
+    <link href="https://qingshaoxi.github.io/moblog.github.io/web/web/"/>
+    <id>https://qingshaoxi.github.io/moblog.github.io/web/web/</id>
+    <published>2019-01-31T06:18:51.000Z</published>
+    <updated>2019-01-31T06:23:56.491Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;引言&quot;&gt;&lt;a href=&quot;#引言&quot; class=&quot;headerlink&quot; title=&quot;引言&quot;&gt;&lt;/a&gt;引言&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;首先对于一家创业公司而言，这更像是一个商业抉择而不仅仅是技术选择，时间人力物力等开销都必须要考虑周全。一旦公司规模上来了资金不成问题了，可选择的空间就更大了甚至可以进行迁移或重新架构。原文作者 Ramigbtech 总结了以下 10 点以供参考。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="架构" scheme="https://qingshaoxi.github.io/moblog.github.io/categories/%E6%9E%B6%E6%9E%84/"/>
+    
+    
+      <category term="web" scheme="https://qingshaoxi.github.io/moblog.github.io/tags/web/"/>
+    
+      <category term="框架" scheme="https://qingshaoxi.github.io/moblog.github.io/tags/%E6%A1%86%E6%9E%B6/"/>
+    
+      <category term="技术" scheme="https://qingshaoxi.github.io/moblog.github.io/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>学习Spring Boot看这两个开源项目就够了！非得值得收藏的资源</title>
+    <link href="https://qingshaoxi.github.io/moblog.github.io/jpa/springboot/"/>
+    <id>https://qingshaoxi.github.io/moblog.github.io/jpa/springboot/</id>
+    <published>2019-01-31T05:35:30.000Z</published>
+    <updated>2019-01-31T05:43:01.299Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;引言&quot;&gt;&lt;a href=&quot;#引言&quot; class=&quot;headerlink&quot; title=&quot;引言&quot;&gt;&lt;/a&gt;引言&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;Spring Boot我就不做介绍了，大家都懂得它是一个多么值得我们程序员兴奋的框架&lt;br&gt;
+    
+    </summary>
+    
+      <category term="JAVA" scheme="https://qingshaoxi.github.io/moblog.github.io/categories/JAVA/"/>
+    
+    
+      <category term="Springboot" scheme="https://qingshaoxi.github.io/moblog.github.io/tags/Springboot/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java开发中MyBatis、Hibernate、Spring Data JPA应该如何选择？</title>
+    <link href="https://qingshaoxi.github.io/moblog.github.io/jpa/jpa/"/>
+    <id>https://qingshaoxi.github.io/moblog.github.io/jpa/jpa/</id>
+    <published>2019-01-31T05:30:30.000Z</published>
+    <updated>2019-01-31T05:35:53.344Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;引言&quot;&gt;&lt;a href=&quot;#引言&quot; class=&quot;headerlink&quot; title=&quot;引言&quot;&gt;&lt;/a&gt;引言&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;大家知道目前Java开发中MyBatis、Hibernate、Spring Data JPA是3个使用比较普遍的持久化框架，但是我们在实际项目中应该如何选择呢？我们对此做一下分析。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="JAVA" scheme="https://qingshaoxi.github.io/moblog.github.io/categories/JAVA/"/>
+    
+    
+      <category term="编程" scheme="https://qingshaoxi.github.io/moblog.github.io/tags/%E7%BC%96%E7%A8%8B/"/>
+    
+      <category term="SQL" scheme="https://qingshaoxi.github.io/moblog.github.io/tags/SQL/"/>
+    
+      <category term="Spring Data JPA" scheme="https://qingshaoxi.github.io/moblog.github.io/tags/Spring-Data-JPA/"/>
+    
+  </entry>
   
   <entry>
     <title>thinkjs-cmswing</title>
@@ -88,11 +159,11 @@
     <link href="https://qingshaoxi.github.io/moblog.github.io/express/express/"/>
     <id>https://qingshaoxi.github.io/moblog.github.io/express/express/</id>
     <published>2019-01-31T03:03:35.000Z</published>
-    <updated>2019-01-31T03:07:24.999Z</updated>
+    <updated>2019-01-31T05:06:01.285Z</updated>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;blockquote&gt;
+      &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;h1 id=&quot;前言-1&quot;&gt;&lt;a href=&quot;#前言-1&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;blockquote&gt;
 &lt;p&gt;在你的windows上已经安装了node.js的基础上再安装express&lt;br&gt;
     
     </summary>
