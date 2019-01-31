@@ -189,21 +189,26 @@
 
 
 
-  <meta name="description" content="分析，在做秒杀系统的设计之初，一直在思考如何去设计这个秒杀系统，使之在现有的技术基础和认知范围内，能够做到最好；同时也能充分的利用公司现有的中间件来完成系统的实现。">
-<meta name="keywords" content="秒杀,分布式,kafka">
+  <meta name="description" content="特别提示项目依赖本项目已升级到ThinkJS 3.0 ,项目运行的 Node &amp;gt; 7.6.0（推荐使用 8.x.x 版本）;">
+<meta name="keywords" content="thinkjs,cms,nodejs">
 <meta property="og:type" content="article">
-<meta property="og:title" content="秒杀系统的实现与详解">
-<meta property="og:url" content="https://qingshaoxi.github.io/moblog.github.io/秒杀系统的实现与详解/index.html">
+<meta property="og:title" content="thinkjs-cmswing">
+<meta property="og:url" content="https://qingshaoxi.github.io/moblog.github.io/thinkjs/thinkjs/index.html">
 <meta property="og:site_name" content="Zhao Wen Xiao">
-<meta property="og:description" content="分析，在做秒杀系统的设计之初，一直在思考如何去设计这个秒杀系统，使之在现有的技术基础和认知范围内，能够做到最好；同时也能充分的利用公司现有的中间件来完成系统的实现。">
+<meta property="og:description" content="特别提示项目依赖本项目已升级到ThinkJS 3.0 ,项目运行的 Node &amp;gt; 7.6.0（推荐使用 8.x.x 版本）;">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="https://images.gitbook.cn/000e5870-f837-11e8-93b4-2733009a7ae5">
-<meta property="og:image" content="https://images.gitbook.cn/086b0040-f837-11e8-93b4-2733009a7ae5">
-<meta property="og:updated_time" content="2019-01-22T06:14:57.747Z">
+<meta property="og:image" content="http://www.cmswing.com/static/dome/macbookpro.png">
+<meta property="og:image" content="http://www.cmswing.com/static/dome/ipad.png">
+<meta property="og:image" content="http://www.cmswing.com/static/dome/iphone.png">
+<meta property="og:image" content="http://data.cmswing.com/1C30EFE7-A0DD-474B-88B5-4AD2270C422E.png">
+<meta property="og:image" content="http://data.cmswing.com/%E5%86%85%E5%AE%B9%E7%AE%A1%E7%90%86%20%20%20CmsWing%E5%86%85%E5%AE%B9%E7%AE%A1%E7%90%86%E6%A1%86%E6%9E%B6.png?imageView2/2/w/973">
+<meta property="og:image" content="http://data.cmswing.com/%E7%81%AB%E7%8B%90%E6%88%AA%E5%9B%BE_2016-05-20T09-51-31.869Z.png?imageView2/2/w/973">
+<meta property="og:image" content="http://data.cmswing.com/D8738B846D03D0854FA7FBB6C0CE189B.png">
+<meta property="og:updated_time" content="2019-01-31T03:47:28.518Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="秒杀系统的实现与详解">
-<meta name="twitter:description" content="分析，在做秒杀系统的设计之初，一直在思考如何去设计这个秒杀系统，使之在现有的技术基础和认知范围内，能够做到最好；同时也能充分的利用公司现有的中间件来完成系统的实现。">
-<meta name="twitter:image" content="https://images.gitbook.cn/000e5870-f837-11e8-93b4-2733009a7ae5">
+<meta name="twitter:title" content="thinkjs-cmswing">
+<meta name="twitter:description" content="特别提示项目依赖本项目已升级到ThinkJS 3.0 ,项目运行的 Node &amp;gt; 7.6.0（推荐使用 8.x.x 版本）;">
+<meta name="twitter:image" content="http://www.cmswing.com/static/dome/macbookpro.png">
 
 
 
@@ -212,7 +217,7 @@
 
 
 
-  <link rel="canonical" href="https://qingshaoxi.github.io/moblog.github.io/秒杀系统的实现与详解/">
+  <link rel="canonical" href="https://qingshaoxi.github.io/moblog.github.io/thinkjs/thinkjs/">
 
 
 
@@ -222,7 +227,7 @@
   };
 </script>
 
-  <title>秒杀系统的实现与详解 | Zhao Wen Xiao</title>
+  <title>thinkjs-cmswing | Zhao Wen Xiao</title>
   
 
 
@@ -509,7 +514,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://qingshaoxi.github.io/moblog.github.io/moblog.github.io/秒杀系统的实现与详解/">
+    <link itemprop="mainEntityOfPage" href="https://qingshaoxi.github.io/moblog.github.io/moblog.github.io/thinkjs/thinkjs/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="赵文消">
@@ -526,7 +531,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">秒杀系统的实现与详解
+          <h1 class="post-title" itemprop="name headline">thinkjs-cmswing
 
               
             
@@ -552,7 +557,7 @@
                 
               
 
-              <time title="创建时间：2019-01-22 14:10:04 / 修改时间：14:14:57" itemprop="dateCreated datePublished" datetime="2019-01-22T14:10:04+08:00">2019-01-22</time>
+              <time title="创建时间：2019-01-31 11:45:58 / 修改时间：11:47:28" itemprop="dateCreated datePublished" datetime="2019-01-31T11:45:58+08:00">2019-01-31</time>
             
 
             
@@ -574,7 +579,7 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/moblog.github.io/categories/秒杀/" itemprop="url" rel="index"><span itemprop="name">秒杀</span></a></span>
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/moblog.github.io/categories/开源项目/" itemprop="url" rel="index"><span itemprop="name">开源项目</span></a></span>
 
                 
                 
@@ -609,56 +614,76 @@
       
 
       
-        <p>分析，在做秒杀系统的设计之初，一直在思考如何去设计这个秒杀系统，使之在现有的技术基础和认知范围内，能够做到最好；同时也能充分的利用公司现有的中间件来完成系统的实现。<br><a id="more"></a><br>我们都知道，正常去实现一个WEB端的秒杀系统，前端的处理和后端的处理一样重要；前端一般会做CDN，后端一般会做分布式部署，限流，性能优化等等一系列的操作，并完成一些网络的优化，比如IDC多线路（电信、联通、移动）的接入，带宽的升级等等。而由于目前系统前端是基于微信小程序，所以关于前端部分的优化就尽可能都是在代码中完成，CDN这一步就可以免了；</p>
-<h2 id="关于秒杀的更多思考，在原有的秒杀架构的基础上新增了新的实现方案"><a href="#关于秒杀的更多思考，在原有的秒杀架构的基础上新增了新的实现方案" class="headerlink" title="关于秒杀的更多思考，在原有的秒杀架构的基础上新增了新的实现方案"></a>关于秒杀的更多思考，在原有的秒杀架构的基础上新增了新的实现方案</h2><h4 id="原有方案："><a href="#原有方案：" class="headerlink" title="原有方案："></a>原有方案：</h4><pre><code>通过分布式锁的方式控制最终库存不超卖，并控制最终能够进入到下单环节的订单，入到队列中慢慢去消费下单
-</code></pre><h4 id="新增方案“"><a href="#新增方案“" class="headerlink" title="新增方案“"></a>新增方案“</h4><pre><code>请求进来之后，通过活动开始判断和重复秒杀判断之后，即进入到消息队列，然后在消息的消费端去做库存判断等操作，通过消息队列达到削峰的操作
-</code></pre><p>  其实，我觉得两种方案都是可以的，只是具体用在什么样的场景；原有方案更适合流量相对较小的平台，而且整个流程也会更加简单；而新增方案则是许多超大型平台采用的方案，通过消息队列达到削峰的目的；而这两种方案都加了真实能进入的请求限制，通过redis的原子自增来记录请求数，当请求量达到库存的n倍时，后面再进入的请求，则直接返回活动太火爆的提示；</p>
-<p>1、架构介绍<br>后端项目是基于SpringCloud+SpringBoot搭建的微服务框架架构</p>
-<p>前端在微信小程序商城上</p>
-<h3 id="核心支撑组件"><a href="#核心支撑组件" class="headerlink" title="核心支撑组件"></a>核心支撑组件</h3><ul>
-<li>服务网关 Zuul</li>
-<li>服务注册发现 Eureka+Ribbon</li>
-<li>认证授权中心 Spring Security OAuth2、JWTToken</li>
-<li>服务框架 Spring MVC/Boot</li>
-<li>服务容错 Hystrix</li>
-<li>分布式锁 Redis</li>
-<li>服务调用 Feign</li>
-<li>消息队列 Kafka</li>
-<li>文件服务 私有云盘</li>
-<li>富文本组件 UEditor</li>
-<li>定时任务 xxl-job</li>
-<li>配置中心 apollo</li>
+        <h2 id="特别提示"><a href="#特别提示" class="headerlink" title="特别提示"></a>特别提示</h2><h4 id="项目依赖"><a href="#项目依赖" class="headerlink" title="项目依赖"></a>项目依赖</h4><p>本项目已升级到ThinkJS 3.0 ,项目运行的 Node &gt; 7.6.0（推荐使用 8.x.x 版本）;<br><a id="more"></a></p>
+<h2 id="项目源代码地址"><a href="#项目源代码地址" class="headerlink" title="项目源代码地址"></a>项目源代码地址</h2><blockquote>
+<p><strong>github地址</strong>：<a href="https://github.com/arterli/CmsWing" target="_blank" rel="noopener">https://github.com/arterli/CmsWing</a></p>
+</blockquote>
+<blockquote>
+<p><strong>码云地址</strong>：<a href="http://git.oschina.net/arterli/CmsWing" target="_blank" rel="noopener">http://git.oschina.net/arterli/CmsWing</a></p>
+</blockquote>
+<blockquote>
+<h4 id="简介"><a href="#简介" class="headerlink" title="简介:"></a><strong>简介:</strong></h4><ul>
+<li><p>模块化：全新的架构和模块化的开发机制，便于灵活扩展和二次开发。</p>
+</li>
+<li><p>模型/栏目/分类信息体系：通过栏目和模型绑定，以及不同的模型类型，不同栏目可以实现差异化的功能，轻松实现诸如资讯、下载、讨论和图片等功能。通过分类信息和栏目绑定，可以自动建立索引表，轻松实现复杂的信息检索。</p>
+</li>
+<li><p>用户行为：支持自定义用户行为，可以对单个用户或者群体用户的行为进行记录及分享，为您的运营决策提供有效参考数据。</p>
+</li>
+<li><p>云服务支持：支持云存储、云安全、云过滤和云统计等服务，更多贴心的服务让您的网站更安心。</p>
+</li>
+<li><p>安全稳健：提供稳健的安全策略，包括备份恢复、容错、防止恶意攻击登录，网页防篡改等多项安全管理功能，保证系统安全，可靠、稳定的运行。</p>
+</li>
 </ul>
-<p>2、关于秒杀的场景特点分析</p>
-<h4 id="秒杀系统的场景特点"><a href="#秒杀系统的场景特点" class="headerlink" title="秒杀系统的场景特点"></a>秒杀系统的场景特点</h4><ul>
-<li>秒杀时大量用户会在同一时间同时进行抢购，网站瞬时访问流量激增；</li>
-<li>秒杀一般是访问请求量远远大于库存数量，只有少部分用户能够秒杀成功；</li>
-<li>秒杀业务流程比较简单，一般就是下订单操作；</li>
-</ul>
-<h4 id="秒杀架构设计理念"><a href="#秒杀架构设计理念" class="headerlink" title="秒杀架构设计理念"></a>秒杀架构设计理念</h4><ul>
-<li>限流：鉴于只有少部分用户能够秒杀成功，所以要限制大部分流量，只允许少部分流量进入服务后端（暂未处理）；</li>
-<li>削峰：对于秒杀系统瞬时的大量用户涌入，所以在抢购开始会有很高的瞬时峰值。实现削峰的常用方法有利用缓存或者消息中间件等技术；</li>
-<li>异步处理：对于高并发系统，采用异步处理模式可以极大地提高系统并发量，异步处理就是削峰的一种实现方式；</li>
-<li>内存缓存：秒杀系统最大的瓶颈最终都可能会是数据库的读写，主要体现在的磁盘的I/O，性能会很低，如果能把大部分的业务逻辑都搬到缓存来处理，效率会有极大的提升；</li>
-<li>可拓展：如果需要支持更多的用户或者更大的并发，将系统设计为弹性可拓展的，如果流量来了，拓展机器就好；<br><img src="https://images.gitbook.cn/000e5870-f837-11e8-93b4-2733009a7ae5" alt=""><br><img src="https://images.gitbook.cn/086b0040-f837-11e8-93b4-2733009a7ae5" alt=""></li>
-</ul>
-<h4 id="秒杀设计思路"><a href="#秒杀设计思路" class="headerlink" title="秒杀设计思路"></a>秒杀设计思路</h4><ul>
-<li>由于前端是属于小程序端，所以不存在前端部分的访问压力，所以前端的访问压力就无从谈起；</li>
-<li>1、秒杀相关的活动页面相关的接口，所有查询能加缓存的，全部添加redis的缓存；</li>
-<li>2、活动相关真实库存、锁定库存、限购、下单处理状态等全放redis；</li>
-<li>3、当有请求进来时，首先通过redis原子自增的方式记录当前请求数，当请求超过一定量，比如说库存的10倍之后，后面进入的请求则直接返回活动太火爆的响应；而能进入抢购的请求，则首先进入活动ID为粒度的分布式锁，第一步进行用户购买的重复性校验，满足条件进入下一步，否则返回已下单的提示；</li>
-<li>4、第二步，判断当前可锁定的库存是否大于购买的数量，满足条件进入下一步，否则返回已售罄的提示；</li>
-<li>5、第三步，锁定当前请求的购买库存，从锁定库存中减除，并将下单的请求放入kafka消息队列；</li>
-<li>6、第四步，在redis中标记一个polling的key（用于轮询的请求接口判断用户是否下订单成功），在kafka消费端消费完成创建订单之后需要删除该key，并且维护一个活动id+用户id的key，防止重复购买；</li>
-<li>7、第五步，消息队列消费，创建订单，创建订单成功则扣减redis中的真实库存，并且删除polling的key。如果下单过程出现异常，则删除限购的key，返还锁定库存，提示用户下单失败；</li>
-<li>8、第六步，提供一个轮询接口，给前端在完成抢购动作后，检查最终下订单操作是否成功，主要判断依据是redis中的polling的key的状态；</li>
-<li>9、整个流程会将所有到后端的请求拦截的在redis的缓存层面，除了最终能下订单的库存限制订单会与数据库存在交互外，基本上无其他的交互，将数据库I/O压力降到了最低；</li>
-</ul>
-<h4 id="关于限流"><a href="#关于限流" class="headerlink" title="关于限流"></a>关于限流</h4><p>SpringCloud zuul的层面有很好的限流策略，可以防止同一用户的恶意请求行为<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"> 1 zuul:</span><br><span class="line"> 2     ratelimit:</span><br><span class="line"> 3         key-prefix: your-prefix  #对应用来标识请求的key的前缀</span><br><span class="line"> 4         enabled: true</span><br><span class="line"> 5         repository: REDIS  #对应存储类型（用来存储统计信息）</span><br><span class="line"> 6         behind-proxy: true  #代理之后</span><br><span class="line"> 7         default-policy: #可选 - 针对所有的路由配置的策略，除非特别配置了policies</span><br><span class="line"> 8              limit: 10 #可选 - 每个刷新时间窗口对应的请求数量限制</span><br><span class="line"> 9              quota: 1000 #可选-  每个刷新时间窗口对应的请求时间限制（秒）</span><br><span class="line">10               refresh-interval: 60 # 刷新时间窗口的时间，默认值 (秒)</span><br><span class="line">11                type: #可选 限流方式</span><br><span class="line">12                     - user</span><br><span class="line">13                     - origin</span><br><span class="line">14                     - url</span><br><span class="line">15           policies:</span><br><span class="line">16                 myServiceId: #特定的路由</span><br><span class="line">17                       limit: 10 #可选- 每个刷新时间窗口对应的请求数量限制</span><br><span class="line">18                       quota: 1000 #可选-  每个刷新时间窗口对应的请求时间限制（秒）</span><br><span class="line">19                       refresh-interval: 60 # 刷新时间窗口的时间，默认值 (秒)</span><br><span class="line">20                       type: #可选 限流方式</span><br><span class="line">21                           - user</span><br><span class="line">22                           - origin</span><br><span class="line">23                           - url</span><br></pre></td></tr></table></figure></p>
-<h4 id="关于负载与分流"><a href="#关于负载与分流" class="headerlink" title="关于负载与分流"></a>关于负载与分流</h4><p>当一个活动的访问量级特别大的时候，可能从域名分发进来的nginx就算是做了高可用，但实际上最终还是单机在线，始终敌不过超大流量的压力时，我们可以考虑域名的多IP映射。也就是说同一个域名下面映射多个外网的IP，再映射到DMZ的多组高可用的nginx服务上，nginx再配置可用的应用服务集群来减缓压力；</p>
-<p>这里也顺带介绍redis可以采用redis cluster的分布式实现方案，同时springcloud hystrix 也能有服务容错的效果；</p>
-<p>而关于nginx、springboot的tomcat、zuul等一系列参数优化操作对于性能的访问提升也是至关重要；</p>
-<p>补充说明一点，即使前端是基于小程序实现，但是活动相关的图片资源都放在自己的云盘服务上，所以活动前活动相关的图片资源上传CDN也是至关重要，否则哪怕是你IDC有1G的流量带宽，也会分分钟被吃完；</p>
+</blockquote>
+<h4 id="快速入门"><a href="#快速入门" class="headerlink" title="快速入门"></a>快速入门</h4><p>本项目依赖,nodejs &gt;7.6.5  推荐使用 8.x.x 版本 mysql &gt; 5.X </p>
+<p><strong>git clone源代码,或者下载指定版本;</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone https://gitee.com/arterli/CmsWing.git</span><br></pre></td></tr></table></figure>
+<p><strong>发行版本选择</strong>,建议最新版本</p>
+<p><a href="https://gitee.com/arterli/CmsWing/releases" target="_blank" rel="noopener">https://gitee.com/arterli/CmsWing/releases</a></p>
+<p>进入命令行模式 cd 到CMSWing目录下</p>
+<p><strong>安装项目依赖</strong></p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install</span><br></pre></td></tr></table></figure>
+<p><strong>创建项目需要的数据库,登录MySQL 创建数据库</strong>,</p>
+<p>数据库名字可以随意,</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">create database cmswing;</span><br></pre></td></tr></table></figure>
+<p><strong>查看数据库,是否创建成功,看到有 cmswing的数据库,就创建成功了</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">show databases;</span><br></pre></td></tr></table></figure>
+<p><strong>登录数据库,使用数据库,</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">use cmswing;</span><br></pre></td></tr></table></figure>
+<p>返回 Database changed 说明成功,下一步</p>
+<p><strong>导入SQL文件,生成数据库表,SQL文件在CMSWing根目录,</strong></p>
+<p>目录改成,自己的 cmswing.sql 文件目录</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">source D:\ProjectList\NodeJS\CmsWing\cmswing.sql</span><br></pre></td></tr></table></figure>
+<p>导入完成后,配置数据库</p>
+<p><strong>配置项目使用的数据库账号密码端口</strong></p>
+<p>在CmsWing\src\config目录下的model.js文件中配置你的数据库</p>
+<p>改数据库用户名,密码,数据库,端口一般默认</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">mysql: &#123;</span><br><span class="line">    handle: mysql, // Adapter handle</span><br><span class="line">    user: &apos;root&apos;, // 用户名</span><br><span class="line">    password: &apos;root&apos;, // 密码</span><br><span class="line">    database: &apos;cmswing&apos;, // 数据库</span><br><span class="line">    host: &apos;127.0.0.1&apos;, // host</span><br><span class="line">    port: 3306, // 端口</span><br><span class="line">    connectionLimit: 1, // 连接池的连接个数，默认为 1</span><br><span class="line">    prefix: &apos;cmswing_&apos;, // 数据表前缀，如果一个数据库里有多个项目，那项目之间的数据表可以通过前缀来区分</span><br><span class="line">    cache: &#123; // 额外的缓存配置</span><br><span class="line">      type: &apos;file&apos;,</span><br><span class="line">      handle: fileCache,</span><br><span class="line">      cachePath: path.join(think.ROOT_PATH, &apos;runtime/cache&apos;) // absoulte path is necessarily required</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
+<p><strong>配置完,运行项目</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm start</span><br></pre></td></tr></table></figure>
+<p>查看有没有报错,没有直接访问,<a href="http://127.0.0.1:8360" target="_blank" rel="noopener">http://127.0.0.1:8360</a></p>
+<p><strong>前端登录</strong></p>
+<p>账号密码</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">user: admin</span><br><span class="line">password: 123456</span><br></pre></td></tr></table></figure>
+<p>愉快的玩耍吧,里面有默认的数据</p>
+<p><strong>管理后台登录账号密码一样</strong></p>
+<p><a href="http://127.0.0.1:8360/admin" target="_blank" rel="noopener">http://127.0.0.1:8360/admin</a></p>
+<p><img src="http://www.cmswing.com/static/dome/macbookpro.png" alt="PC"><br><img src="http://www.cmswing.com/static/dome/ipad.png" alt="IPAD"><br><img src="http://www.cmswing.com/static/dome/iphone.png" alt="iphone"></p>
+<h2 id="QQ-交流群-49757468"><a href="#QQ-交流群-49757468" class="headerlink" title="QQ 交流群: 49757468"></a>QQ 交流群: 49757468</h2><p>有问题可以到QQ群 进行交流.</p>
+<h2 id="install-dependencies"><a href="#install-dependencies" class="headerlink" title="install dependencies"></a>install dependencies</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install</span><br></pre></td></tr></table></figure>
+<h2 id="start-server"><a href="#start-server" class="headerlink" title="start server"></a>start server</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm start</span><br></pre></td></tr></table></figure>
+<h2 id="deploy-with-pm2"><a href="#deploy-with-pm2" class="headerlink" title="deploy with pm2"></a>deploy with pm2</h2><p>use pm2 to deploy app on production envrioment.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">可以在项目根目录下执行 pm2 start pm2.json 来启动项目</span><br></pre></td></tr></table></figure>
+<h2 id="后台账号密码1"><a href="#后台账号密码1" class="headerlink" title="后台账号密码1"></a>后台账号密码1</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">账号:admin</span><br><span class="line">密码:123456</span><br></pre></td></tr></table></figure>
+<h2 id="演示网站"><a href="#演示网站" class="headerlink" title="演示网站"></a>演示网站</h2><p>#####PC端直接输入下面网址:</p>
+<blockquote>
+<p>CmsWing.com <a href="http://www.cmswing.com/" title="Title" target="_blank" rel="noopener">www.cmswing.com</a> CMSWing 官网.<br>CmsWing.net <a href="http://www.cmswing.net/" title="Title" target="_blank" rel="noopener">www.cmswing.net</a> CMSWing 演示网站.<br>LVOO<a href="http://www.lvoo.net" target="_blank" rel="noopener">www.lvoo.net</a> 分类信息应用案例展示。</p>
+</blockquote>
+<p>#####手机端,用手机浏览器或者微信客户端扫下面二维码:<br><img src="http://data.cmswing.com/1C30EFE7-A0DD-474B-88B5-4AD2270C422E.png" alt="二维码"></p>
+<h2 id="内置模型-同时支持PC端与手机端【微信公众平台】"><a href="#内置模型-同时支持PC端与手机端【微信公众平台】" class="headerlink" title="内置模型 - 同时支持PC端与手机端【微信公众平台】"></a>内置模型 - 同时支持PC端与手机端【微信公众平台】</h2><h5 id="新闻系统模型"><a href="#新闻系统模型" class="headerlink" title="新闻系统模型"></a>新闻系统模型</h5><h5 id="下载系统模型"><a href="#下载系统模型" class="headerlink" title="下载系统模型"></a>下载系统模型</h5><h5 id="视频系统模型"><a href="#视频系统模型" class="headerlink" title="视频系统模型"></a>视频系统模型</h5><h5 id="图库系统模型"><a href="#图库系统模型" class="headerlink" title="图库系统模型"></a>图库系统模型</h5><h5 id="商城系统模型"><a href="#商城系统模型" class="headerlink" title="商城系统模型"></a>商城系统模型</h5><h5 id="问答社区模型"><a href="#问答社区模型" class="headerlink" title="问答社区模型"></a>问答社区模型</h5><p>##后台部分截图</p>
+<p><img src="http://data.cmswing.com/%E5%86%85%E5%AE%B9%E7%AE%A1%E7%90%86%20%20%20CmsWing%E5%86%85%E5%AE%B9%E7%AE%A1%E7%90%86%E6%A1%86%E6%9E%B6.png?imageView2/2/w/973" alt="内容管理"><br><img src="http://data.cmswing.com/%E7%81%AB%E7%8B%90%E6%88%AA%E5%9B%BE_2016-05-20T09-51-31.869Z.png?imageView2/2/w/973" alt="微信"></p>
+<p>##手机端(微信)前台模版截图</p>
+<p><img src="http://data.cmswing.com/D8738B846D03D0854FA7FBB6C0CE189B.png" alt="新闻详情"></p>
 
       
     </div>
@@ -711,11 +736,11 @@
       
         <div class="post-tags">
           
-            <a href="/moblog.github.io/tags/秒杀/" <i="" class="fa fa-tag"> 秒杀</a>
+            <a href="/moblog.github.io/tags/thinkjs/" <i="" class="fa fa-tag"> thinkjs</a>
           
-            <a href="/moblog.github.io/tags/分布式/" <i="" class="fa fa-tag"> 分布式</a>
+            <a href="/moblog.github.io/tags/cms/" <i="" class="fa fa-tag"> cms</a>
           
-            <a href="/moblog.github.io/tags/kafka/" <i="" class="fa fa-tag"> kafka</a>
+            <a href="/moblog.github.io/tags/nodejs/" <i="" class="fa fa-tag"> nodejs</a>
           
         </div>
       
@@ -728,8 +753,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/moblog.github.io/Spring Boot使用gRPC轻松调用远程方法/" rel="next" title="Spring Boot使用gRPC轻松调用远程方法">
-                <i class="fa fa-chevron-left"></i> Spring Boot使用gRPC轻松调用远程方法
+              <a href="/moblog.github.io/sunny-ngrok/sunny-ngrok/" rel="next" title="sunny-ngrok内网穿透">
+                <i class="fa fa-chevron-left"></i> sunny-ngrok内网穿透
               </a>
             
           </div>
@@ -737,10 +762,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/moblog.github.io/access-token/" rel="prev" title="微信小程序接口调用凭证">
-                微信小程序接口调用凭证 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -1055,7 +1076,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#关于秒杀的更多思考，在原有的秒杀架构的基础上新增了新的实现方案"><span class="nav-text">关于秒杀的更多思考，在原有的秒杀架构的基础上新增了新的实现方案</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#原有方案："><span class="nav-text">原有方案：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#新增方案“"><span class="nav-text">新增方案“</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#核心支撑组件"><span class="nav-text">核心支撑组件</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#秒杀系统的场景特点"><span class="nav-text">秒杀系统的场景特点</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#秒杀架构设计理念"><span class="nav-text">秒杀架构设计理念</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#秒杀设计思路"><span class="nav-text">秒杀设计思路</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#关于限流"><span class="nav-text">关于限流</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#关于负载与分流"><span class="nav-text">关于负载与分流</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#特别提示"><span class="nav-text">特别提示</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#项目依赖"><span class="nav-text">项目依赖</span></a></li></ol></li></ol><li class="nav-item nav-level-2"><a class="nav-link" href="#项目源代码地址"><span class="nav-text">项目源代码地址</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#简介"><span class="nav-text">简介:</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#快速入门"><span class="nav-text">快速入门</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#QQ-交流群-49757468"><span class="nav-text">QQ 交流群: 49757468</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#install-dependencies"><span class="nav-text">install dependencies</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#start-server"><span class="nav-text">start server</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#deploy-with-pm2"><span class="nav-text">deploy with pm2</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#后台账号密码1"><span class="nav-text">后台账号密码1</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#演示网站"><span class="nav-text">演示网站</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#内置模型-同时支持PC端与手机端【微信公众平台】"><span class="nav-text">内置模型 - 同时支持PC端与手机端【微信公众平台】</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#新闻系统模型"><span class="nav-text">新闻系统模型</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#下载系统模型"><span class="nav-text">下载系统模型</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#视频系统模型"><span class="nav-text">视频系统模型</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#图库系统模型"><span class="nav-text">图库系统模型</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#商城系统模型"><span class="nav-text">商城系统模型</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#问答社区模型"><span class="nav-text">问答社区模型</span></a></li></ol></li></div>
             
 
           </div>

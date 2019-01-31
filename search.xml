@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[thinkjs-cmswing]]></title>
+    <url>%2Fmoblog.github.io%2Fthinkjs%2Fthinkjs%2F</url>
+    <content type="text"><![CDATA[特别提示项目依赖本项目已升级到ThinkJS 3.0 ,项目运行的 Node &gt; 7.6.0（推荐使用 8.x.x 版本）; 项目源代码地址 github地址：https://github.com/arterli/CmsWing 码云地址：http://git.oschina.net/arterli/CmsWing 简介: 模块化：全新的架构和模块化的开发机制，便于灵活扩展和二次开发。 模型/栏目/分类信息体系：通过栏目和模型绑定，以及不同的模型类型，不同栏目可以实现差异化的功能，轻松实现诸如资讯、下载、讨论和图片等功能。通过分类信息和栏目绑定，可以自动建立索引表，轻松实现复杂的信息检索。 用户行为：支持自定义用户行为，可以对单个用户或者群体用户的行为进行记录及分享，为您的运营决策提供有效参考数据。 云服务支持：支持云存储、云安全、云过滤和云统计等服务，更多贴心的服务让您的网站更安心。 安全稳健：提供稳健的安全策略，包括备份恢复、容错、防止恶意攻击登录，网页防篡改等多项安全管理功能，保证系统安全，可靠、稳定的运行。 快速入门本项目依赖,nodejs &gt;7.6.5 推荐使用 8.x.x 版本 mysql &gt; 5.X git clone源代码,或者下载指定版本; 1git clone https://gitee.com/arterli/CmsWing.git 发行版本选择,建议最新版本 https://gitee.com/arterli/CmsWing/releases 进入命令行模式 cd 到CMSWing目录下 安装项目依赖 1npm install 创建项目需要的数据库,登录MySQL 创建数据库, 数据库名字可以随意, 1create database cmswing; 查看数据库,是否创建成功,看到有 cmswing的数据库,就创建成功了 1show databases; 登录数据库,使用数据库, 1use cmswing; 返回 Database changed 说明成功,下一步 导入SQL文件,生成数据库表,SQL文件在CMSWing根目录, 目录改成,自己的 cmswing.sql 文件目录 1source D:\ProjectList\NodeJS\CmsWing\cmswing.sql 导入完成后,配置数据库 配置项目使用的数据库账号密码端口 在CmsWing\src\config目录下的model.js文件中配置你的数据库 改数据库用户名,密码,数据库,端口一般默认 1234567891011121314mysql: &#123; handle: mysql, // Adapter handle user: &apos;root&apos;, // 用户名 password: &apos;root&apos;, // 密码 database: &apos;cmswing&apos;, // 数据库 host: &apos;127.0.0.1&apos;, // host port: 3306, // 端口 connectionLimit: 1, // 连接池的连接个数，默认为 1 prefix: &apos;cmswing_&apos;, // 数据表前缀，如果一个数据库里有多个项目，那项目之间的数据表可以通过前缀来区分 cache: &#123; // 额外的缓存配置 type: &apos;file&apos;, handle: fileCache, cachePath: path.join(think.ROOT_PATH, &apos;runtime/cache&apos;) // absoulte path is necessarily required &#125; 配置完,运行项目 1npm start 查看有没有报错,没有直接访问,http://127.0.0.1:8360 前端登录 账号密码 12user: adminpassword: 123456 愉快的玩耍吧,里面有默认的数据 管理后台登录账号密码一样 http://127.0.0.1:8360/admin QQ 交流群: 49757468有问题可以到QQ群 进行交流. install dependencies1npm install start server1npm start deploy with pm2use pm2 to deploy app on production envrioment. 1可以在项目根目录下执行 pm2 start pm2.json 来启动项目 后台账号密码112账号:admin密码:123456 演示网站#####PC端直接输入下面网址: CmsWing.com www.cmswing.com CMSWing 官网.CmsWing.net www.cmswing.net CMSWing 演示网站.LVOOwww.lvoo.net 分类信息应用案例展示。 #####手机端,用手机浏览器或者微信客户端扫下面二维码: 内置模型 - 同时支持PC端与手机端【微信公众平台】新闻系统模型下载系统模型视频系统模型图库系统模型商城系统模型问答社区模型##后台部分截图 ##手机端(微信)前台模版截图]]></content>
+      <categories>
+        <category>开源项目</category>
+      </categories>
+      <tags>
+        <tag>thinkjs</tag>
+        <tag>cms</tag>
+        <tag>nodejs</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[sunny-ngrok内网穿透]]></title>
     <url>%2Fmoblog.github.io%2Fsunny-ngrok%2Fsunny-ngrok%2F</url>
     <content type="text"><![CDATA[前言 为什么使用Sunny-Ngrok？ 提供免费内网穿透服务，免费服务器支持绑定自定义域名 管理内网服务器，内网web进行演示 快速开发微信程序和第三方支付平台调试 本地WEB外网访问、本地开发微信、TCP端口转发 本站新增FRP服务器，基于 FRP 实现https、udp转发 无需任何配置，下载客户端之后直接一条命令让外网访问您的内网不再是距离 ngrok12345登录帐号：******@163.com登录密码：Mcgrady:****域名：http://mymo.free.idcfengye.com映射内网：127.0.0.1:10005(内网端口需要自行修改)隧道id:sunny.exe clientid 7bb09a527ea35e6e sunny.exe]]></content>

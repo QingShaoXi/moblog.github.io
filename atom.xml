@@ -6,7 +6,7 @@
   <link href="/moblog.github.io/atom.xml" rel="self"/>
   
   <link href="https://qingshaoxi.github.io/moblog.github.io/"/>
-  <updated>2019-01-31T03:21:26.734Z</updated>
+  <updated>2019-01-31T03:47:28.518Z</updated>
   <id>https://qingshaoxi.github.io/moblog.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>thinkjs-cmswing</title>
+    <link href="https://qingshaoxi.github.io/moblog.github.io/thinkjs/thinkjs/"/>
+    <id>https://qingshaoxi.github.io/moblog.github.io/thinkjs/thinkjs/</id>
+    <published>2019-01-31T03:45:58.000Z</published>
+    <updated>2019-01-31T03:47:28.518Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;特别提示&quot;&gt;&lt;a href=&quot;#特别提示&quot; class=&quot;headerlink&quot; title=&quot;特别提示&quot;&gt;&lt;/a&gt;特别提示&lt;/h2&gt;&lt;h4 id=&quot;项目依赖&quot;&gt;&lt;a href=&quot;#项目依赖&quot; class=&quot;headerlink&quot; title=&quot;项目依赖&quot;&gt;&lt;/a&gt;项目依赖&lt;/h4&gt;&lt;p&gt;本项目已升级到ThinkJS 3.0 ,项目运行的 Node &amp;gt; 7.6.0（推荐使用 8.x.x 版本）;&lt;br&gt;
+    
+    </summary>
+    
+      <category term="开源项目" scheme="https://qingshaoxi.github.io/moblog.github.io/categories/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/"/>
+    
+    
+      <category term="thinkjs" scheme="https://qingshaoxi.github.io/moblog.github.io/tags/thinkjs/"/>
+    
+      <category term="cms" scheme="https://qingshaoxi.github.io/moblog.github.io/tags/cms/"/>
+    
+      <category term="nodejs" scheme="https://qingshaoxi.github.io/moblog.github.io/tags/nodejs/"/>
+    
+  </entry>
   
   <entry>
     <title>sunny-ngrok内网穿透</title>
