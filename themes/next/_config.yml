@@ -140,7 +140,7 @@ menu:
   tags: /tags/ || tags
   categories: /categories/ || th
   archives: /archives/ || archive
-  音乐: /music/ || music
+  #音乐: /music/ || music
   相册: /photos/  || camera
   #about: /about/ || user
   resources: /resources/ || download
