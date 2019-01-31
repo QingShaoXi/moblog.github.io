@@ -6,7 +6,7 @@
   <link href="/moblog.github.io/atom.xml" rel="self"/>
   
   <link href="https://qingshaoxi.github.io/moblog.github.io/"/>
-  <updated>2019-01-29T09:09:39.395Z</updated>
+  <updated>2019-01-31T02:31:32.759Z</updated>
   <id>https://qingshaoxi.github.io/moblog.github.io/</id>
   
   <author>
@@ -15,6 +15,48 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>最实用的 Markdown 语法教程</title>
+    <link href="https://qingshaoxi.github.io/moblog.github.io/markdown/markdown/"/>
+    <id>https://qingshaoxi.github.io/moblog.github.io/markdown/markdown/</id>
+    <published>2019-01-31T01:47:45.000Z</published>
+    <updated>2019-01-31T02:31:32.759Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;最近不是很忙,仔细研究了一下Markdown语法,忽然有种相见恨晚的感觉,因为用它来写文档，那是相当的舒服，特别feeling。废话少说，咱们开始正题吧〜&lt;br&gt;
+    
+    </summary>
+    
+      <category term="工具" scheme="https://qingshaoxi.github.io/moblog.github.io/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="markdown语法" scheme="https://qingshaoxi.github.io/moblog.github.io/tags/markdown%E8%AF%AD%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>23种设计模式</title>
+    <link href="https://qingshaoxi.github.io/moblog.github.io/designPattern/designPattern/"/>
+    <id>https://qingshaoxi.github.io/moblog.github.io/designPattern/designPattern/</id>
+    <published>2019-01-31T01:14:53.000Z</published>
+    <updated>2019-01-31T01:56:41.008Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;断断续续写了一段时间的设计模式，下面对这些设计模式总结一下&lt;br&gt;
+    
+    </summary>
+    
+      <category term="软件工程" scheme="https://qingshaoxi.github.io/moblog.github.io/categories/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/"/>
+    
+    
+      <category term="设计模式" scheme="https://qingshaoxi.github.io/moblog.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>mall</title>
