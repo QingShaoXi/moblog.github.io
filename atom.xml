@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Zhao Wen Xiao</title>
+  <title>喝杯零度的酒</title>
   
   <subtitle>Stay Hungry, Stay Foolish</subtitle>
   <link href="/moblog.github.io/atom.xml" rel="self"/>
   
   <link href="https://qingshaoxi.github.io/moblog.github.io/"/>
-  <updated>2019-01-31T06:23:56.491Z</updated>
+  <updated>2019-02-18T08:59:24.737Z</updated>
   <id>https://qingshaoxi.github.io/moblog.github.io/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>如何写技术简历</title>
+    <link href="https://qingshaoxi.github.io/moblog.github.io/cv/cv/"/>
+    <id>https://qingshaoxi.github.io/moblog.github.io/cv/cv/</id>
+    <published>2019-02-18T08:56:43.000Z</published>
+    <updated>2019-02-18T08:59:24.737Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Java程序员简历模板&quot;&gt;&lt;a href=&quot;#Java程序员简历模板&quot; class=&quot;headerlink&quot; title=&quot;Java程序员简历模板&quot;&gt;&lt;/a&gt;Java程序员简历模板&lt;/h1&gt;&lt;p&gt;本简历模板由国内首家互联网人才拍卖网站「 &lt;a href=&quot;http://www.jobdeer.com&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;JobDeer.com&lt;/a&gt; 」提供。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="工具" scheme="https://qingshaoxi.github.io/moblog.github.io/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="简历模板" scheme="https://qingshaoxi.github.io/moblog.github.io/tags/%E7%AE%80%E5%8E%86%E6%A8%A1%E6%9D%BF/"/>
+    
+  </entry>
   
   <entry>
     <title>Web 框架技术选型的原则</title>
@@ -426,26 +446,6 @@
     </summary>
     
       <category term="工具" scheme="https://qingshaoxi.github.io/moblog.github.io/categories/%E5%B7%A5%E5%85%B7/"/>
-    
-    
-      <category term="Git" scheme="https://qingshaoxi.github.io/moblog.github.io/tags/Git/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>hexo 命令</title>
-    <link href="https://qingshaoxi.github.io/moblog.github.io/hello-world/"/>
-    <id>https://qingshaoxi.github.io/moblog.github.io/hello-world/</id>
-    <published>2019-01-18T06:35:45.137Z</published>
-    <updated>2019-01-19T06:39:07.221Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;GitHub&lt;/a&gt;.&lt;br&gt;
-    
-    </summary>
-    
-      <category term="hexo" scheme="https://qingshaoxi.github.io/moblog.github.io/categories/hexo/"/>
     
     
       <category term="Git" scheme="https://qingshaoxi.github.io/moblog.github.io/tags/Git/"/>
