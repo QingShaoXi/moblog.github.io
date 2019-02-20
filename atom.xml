@@ -6,7 +6,7 @@
   <link href="/moblog.github.io/atom.xml" rel="self"/>
   
   <link href="https://qingshaoxi.github.io/moblog.github.io/"/>
-  <updated>2019-02-18T08:59:24.737Z</updated>
+  <updated>2019-02-20T09:50:03.200Z</updated>
   <id>https://qingshaoxi.github.io/moblog.github.io/</id>
   
   <author>
@@ -15,6 +15,92 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>面试自我介绍样例</title>
+    <link href="https://qingshaoxi.github.io/moblog.github.io/cv/security/"/>
+    <id>https://qingshaoxi.github.io/moblog.github.io/cv/security/</id>
+    <published>2019-02-20T08:49:42.000Z</published>
+    <updated>2019-02-20T09:50:03.200Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;如何进行自我介绍&quot;&gt;&lt;a href=&quot;#如何进行自我介绍&quot; class=&quot;headerlink&quot; title=&quot;如何进行自我介绍&quot;&gt;&lt;/a&gt;如何进行自我介绍&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;面试过程中，我们难免会遇到，面试官让你自我介绍，如何给面试官留下好的印象呢&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="简历" scheme="https://qingshaoxi.github.io/moblog.github.io/categories/%E7%AE%80%E5%8E%86/"/>
+    
+    
+      <category term="面试" scheme="https://qingshaoxi.github.io/moblog.github.io/tags/%E9%9D%A2%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Spring Cloud开源示例项目推荐：优秀资源、使用实例一应俱全</title>
+    <link href="https://qingshaoxi.github.io/moblog.github.io/springcloud/springcloud/"/>
+    <id>https://qingshaoxi.github.io/moblog.github.io/springcloud/springcloud/</id>
+    <published>2019-02-20T08:29:44.000Z</published>
+    <updated>2019-02-20T08:49:20.157Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;Spring-Cloud-Examples&quot;&gt;&lt;a href=&quot;#Spring-Cloud-Examples&quot; class=&quot;headerlink&quot; title=&quot;Spring Cloud Examples&quot;&gt;&lt;/a&gt;Spring Cloud Examples&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;Spring Cloud 使用的各种示例，以最简单、最实用为标准&lt;br&gt;
+    
+    </summary>
+    
+      <category term="spring cloud" scheme="https://qingshaoxi.github.io/moblog.github.io/categories/spring-cloud/"/>
+    
+    
+      <category term="spring cloud" scheme="https://qingshaoxi.github.io/moblog.github.io/tags/spring-cloud/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>微服务专题</title>
+    <link href="https://qingshaoxi.github.io/moblog.github.io/MicroService/MicroService/"/>
+    <id>https://qingshaoxi.github.io/moblog.github.io/MicroService/MicroService/</id>
+    <published>2019-02-20T08:19:00.000Z</published>
+    <updated>2019-02-20T08:25:12.386Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;#引言&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;恕我直言，你可能误解了微服务&lt;br&gt;
+    
+    </summary>
+    
+      <category term="微服务专题" scheme="https://qingshaoxi.github.io/moblog.github.io/categories/%E5%BE%AE%E6%9C%8D%E5%8A%A1%E4%B8%93%E9%A2%98/"/>
+    
+    
+      <category term="微服务" scheme="https://qingshaoxi.github.io/moblog.github.io/tags/%E5%BE%AE%E6%9C%8D%E5%8A%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>git操作指南</title>
+    <link href="https://qingshaoxi.github.io/moblog.github.io/git/git/"/>
+    <id>https://qingshaoxi.github.io/moblog.github.io/git/git/</id>
+    <published>2019-02-20T07:38:46.000Z</published>
+    <updated>2019-02-20T07:40:11.646Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;——————————git配置以及公钥生成————————————&lt;br&gt;
+    
+    </summary>
+    
+      <category term="工具" scheme="https://qingshaoxi.github.io/moblog.github.io/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="git" scheme="https://qingshaoxi.github.io/moblog.github.io/tags/git/"/>
+    
+  </entry>
   
   <entry>
     <title>如何写技术简历</title>
@@ -179,11 +265,11 @@
     <link href="https://qingshaoxi.github.io/moblog.github.io/express/express/"/>
     <id>https://qingshaoxi.github.io/moblog.github.io/express/express/</id>
     <published>2019-01-31T03:03:35.000Z</published>
-    <updated>2019-01-31T05:06:01.285Z</updated>
+    <updated>2019-02-20T07:40:02.737Z</updated>
     
     <summary type="html">
     
-      &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;h1 id=&quot;前言-1&quot;&gt;&lt;a href=&quot;#前言-1&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;blockquote&gt;
+      &lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;blockquote&gt;
 &lt;p&gt;在你的windows上已经安装了node.js的基础上再安装express&lt;br&gt;
     
     </summary>
@@ -361,94 +447,6 @@
     
     
       <category term="gRPC" scheme="https://qingshaoxi.github.io/moblog.github.io/tags/gRPC/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>live2d宠物安装</title>
-    <link href="https://qingshaoxi.github.io/moblog.github.io/live2d/"/>
-    <id>https://qingshaoxi.github.io/moblog.github.io/live2d/</id>
-    <published>2019-01-19T09:04:13.000Z</published>
-    <updated>2019-01-21T01:57:44.995Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Install seperated models&lt;br&gt;use npm install {packagename} The package name is the folder name in packages/ We have:&lt;br&gt;
-    
-    </summary>
-    
-      <category term="hexo" scheme="https://qingshaoxi.github.io/moblog.github.io/categories/hexo/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>以太坊 Web3.js 开发基础</title>
-    <link href="https://qingshaoxi.github.io/moblog.github.io/web3-js/"/>
-    <id>https://qingshaoxi.github.io/moblog.github.io/web3-js/</id>
-    <published>2019-01-19T08:19:24.000Z</published>
-    <updated>2019-01-19T09:04:56.494Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;简介&lt;br&gt;web3.js 是一个通过RPC 调用 和本地以太坊节点进行通信的js库。web3.js可以与任何暴露了RPC接口的以太坊节点连接。&lt;br&gt;web3中提供了eth对象 - web3.eth来与以太坊区块链进行交互。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="区块链" scheme="https://qingshaoxi.github.io/moblog.github.io/categories/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
-    
-    
-      <category term="web3js" scheme="https://qingshaoxi.github.io/moblog.github.io/tags/web3js/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>next 内嵌标签demo</title>
-    <link href="https://qingshaoxi.github.io/moblog.github.io/my-princess/"/>
-    <id>https://qingshaoxi.github.io/moblog.github.io/my-princess/</id>
-    <published>2019-01-19T06:43:24.000Z</published>
-    <updated>2019-01-25T06:26:01.556Z</updated>
-    
-    <summary type="html">
-    
-      &lt;!-- HTML方式: 直接在 Markdown 文件中编写 HTML 来调用 --&gt;
-&lt;!-- 其中 class=&quot;blockquote-center&quot; 是必须的 --&gt;
-&lt;blockquote class=&quot;blockquote-center&quot;&gt;blah blah blah&lt;/blockquote&gt;
-
-&lt;!-- 标签 方式，要求版本在0.4.5或以上 --&gt;
-&lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;p&gt;blah blah blah&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;!-- 标签别名 --&gt;
-&lt;blockquote class=&quot;blockquote-center&quot;&gt;&lt;p&gt;blah blah blah &lt;/p&gt;
-&lt;/blockquote&gt;
-    
-    </summary>
-    
-      <category term="hexo" scheme="https://qingshaoxi.github.io/moblog.github.io/categories/hexo/"/>
-    
-    
-      <category term="next" scheme="https://qingshaoxi.github.io/moblog.github.io/tags/next/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>git操作命令</title>
-    <link href="https://qingshaoxi.github.io/moblog.github.io/git%E6%93%8D%E4%BD%9C%E5%91%BD%E4%BB%A4/"/>
-    <id>https://qingshaoxi.github.io/moblog.github.io/git操作命令/</id>
-    <published>2019-01-18T09:10:40.000Z</published>
-    <updated>2019-01-19T06:39:29.740Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Git tag 给当前分支打标签&lt;br&gt;原文已经找不到出处，重新整理格式，仅作个人收藏！&lt;/p&gt;
-&lt;p&gt;标签(Tag)可以针对某一时间点的版本做标记，常用于版本发布。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="工具" scheme="https://qingshaoxi.github.io/moblog.github.io/categories/%E5%B7%A5%E5%85%B7/"/>
-    
-    
-      <category term="Git" scheme="https://qingshaoxi.github.io/moblog.github.io/tags/Git/"/>
     
   </entry>
   
