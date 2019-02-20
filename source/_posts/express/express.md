@@ -7,7 +7,6 @@ categories:
  - nodejs
 ---
 # 前言
-# 前言
 > 在你的windows上已经安装了node.js的基础上再安装express
 <!--more-->
 ## 第一部分:安装express 
